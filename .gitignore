@@ -1,1 +1,2 @@
-/target
+# Ignore all files in the .direnv folder
+.direnv/
