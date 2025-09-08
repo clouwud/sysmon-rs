@@ -1,5 +1,10 @@
-# Ignore all files from these dirs
-.direnv/
+# Ignore Rust build output
 /target/
+.direnv/
 
-/Cargo.lock
+# Ignore Cargo.lock for libraries (if this is a library)
+# If this is an application, keep it tracked.
+Cargo.lock
+
+# Ignore Nix related files (if not needed in version control)
+/flake.lock
