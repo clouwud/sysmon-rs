@@ -1,3 +1,5 @@
-# Ignore all files in the .direnv folder
+# Ignore all files from these dirs
 .direnv/
-.target/
+/target/
+
+/Cargo.lock
